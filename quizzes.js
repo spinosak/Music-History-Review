@@ -28,7 +28,7 @@ const D=[
 ["Which of the following belongs to the Proper of the Mass?",["Gradual","Credo","Sanctus","Agnus Dei"],0]]],
 ["C3-2","C3-2 · Sequences & Hildegard",[
 ["Who was the most famous early Medieval writer of sequence texts?",["Notker Balbulus","Bernart de Ventadorn","Eleanor of Aquitaine","Comtessa de Dia"],0],
-["What is the standard musical form of the sequence?",["ABCA","ABA’","AA BB CC…","A BB CC…N"],3],
+["What is the standard musical form of the sequence?",["ABCA","ABA’","AA BB CC…","A BB CC…N"],2],
 ["What is Hildegard’s Ordo virtutum?",["a unified setting of the Mass Ordinary","a sacred drama","texts intended to be set to reciting tones for use in the Office","texts and music on the subject of courtly love"],1],
 ["The Dies irae is an example of what genre?",["antiphon","hymn","sequence","liturgical drama"],2],
 ["Which of the following is true of Hildegard of Bingen?",["She founded her own convent","She was famous for her prophecies and correspondence with kings, popes, and bishops","A greater number of surviving chants are attributed to her than to any other Medieval composer","all of the above"],3],
