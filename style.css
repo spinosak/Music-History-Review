@@ -14,3 +14,10 @@ button{font:inherit;cursor:pointer;color:var(--fg)}
 .go{background:var(--gold);color:#0E273C;font-weight:600;border:0;border-radius:8px;padding:11px 22px;margin:10px 6px 0 0}
 .mut{color:var(--mut);font-size:.9rem}
 .bar{height:6px;background:var(--bd);border-radius:3px}.bar i{display:block;height:6px;background:var(--gold);border-radius:3px}
+details{margin:14px 0}
+summary{cursor:pointer;list-style:none;font-size:1.2rem;font-weight:600;padding:12px 16px;
+  background:var(--hd);color:var(--hdt);border-radius:10px;border-bottom:3px solid var(--gold)}
+summary::-webkit-details-marker{display:none}
+summary::before{content:"▸ "}
+details[open] summary::before{content:"▾ "}
+summary .mut{color:var(--hdt);opacity:.7;font-weight:400}
