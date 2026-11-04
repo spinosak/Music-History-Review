@@ -1,0 +1,16 @@
+:root{--bg:#FFF9EC;--fg:#0E273C;--card:#FFFDF6;--bd:#e3dccb;--ac:#0E273C;--gold:#D4A94E;--hd:#0E273C;--hdt:#FFF9EC;--ok:#dcebd8;--okb:#2f7d3a;--no:#f3dcd6;--nob:#a63a2e;--mut:#7C7C7C;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+/*@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1d4529;--fg:#FFF9EC;--card:#143350;--bd:#2c4a66;--ac:#FFF9EC;--gold:#D4A94E;--hd:#143350;--hdt:#FFF9EC;--ok:#1f3a2c;--okb:#6cc47a;--no:#4a2a2e;--nob:#e07a7a;--mut:#a3a3a3}}*/
+html,body{margin:0}
+body{background:var(--bg);color:var(--fg);font:19px/1.5 "EB Garamond",Garamond,Georgia,serif}
+main{max-width:640px;margin:0 auto;padding:18px}
+h1{font-size:1.7rem;font-weight:600;background:var(--hd);color:var(--hdt);padding:20px 22px;border-radius:12px;border-bottom:4px solid var(--gold);margin:6px 0 16px}
+button{font:inherit;cursor:pointer;color:var(--fg)}
+.card{background:var(--card);border:1px solid var(--bd);border-left:5px solid var(--gold);border-radius:10px;padding:16px;margin:12px 0;font-size:1.1rem;box-shadow:0 1px 3px rgba(14,39,60,.08)}
+.q{display:block;width:100%;text-align:left;background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:13px 16px;margin:9px 0;box-shadow:0 1px 2px rgba(14,39,60,.08);transition:transform .1s,border-color .1s}
+.q:hover{border-color:var(--gold);transform:translateY(-1px)}
+.sel{border-color:var(--gold);border-width:2px;background:var(--bg)}
+.ok{background:var(--ok);border-color:var(--okb)}
+.no{background:var(--no);border-color:var(--nob)}
+.go{background:var(--gold);color:#0E273C;font-weight:600;border:0;border-radius:8px;padding:11px 22px;margin:10px 6px 0 0}
+.mut{color:var(--mut);font-size:.9rem}
+.bar{height:6px;background:var(--bd);border-radius:3px}.bar i{display:block;height:6px;background:var(--gold);border-radius:3px}
